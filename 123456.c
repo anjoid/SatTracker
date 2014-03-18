@@ -9,3 +9,5 @@ while ((ADCSRA & 0x10)==0);
 ADCSRA|=0x10;
 return ADCW;
 }
+
+//随便改改 看看有什么变化
